@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/cui.css" />
+    <link rel="stylesheet" href="css/cui-rel.css" />
+    <link rel="stylesheet" href="css/lib.css" />
+	<link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-rel.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script src="./js/jquery.SuperSlide.js"></script>
+    <link
+      rel="stylesheet"
+      href="http://at.alicdn.com/t/font_3386318_qs4zfs2gw2g.css"
+    />
+    <!--[if IE]>
+      <script src="js/html5.js"></script>
+      <script src="js/respond.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- 一下是 hd 部分的html代码 -->
+    <div id="hd">
+      <div id="wp">
+        <div id="l">
+          <span
+            class="iconfont icon-wangyiyunyinyuemusic1193417easyiconnet"
+          ></span>
+          <p>网易云音乐·商城</p>
+        </div>
+        <div id="r">
+          <div id="search">
+            <span class="iconfont icon-sousuo"></span>
+            <input type="text" value="漫步者" />
+          </div>
+          <span class="iconfont icon-gouwuchekong"></span>
+          <p>登录</p>
+          <span class="iconfont icon-sanjiao1"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 一下是 banner 部分的html代码 -->
+   <div class="banner">
+		<div id="slideBox" class="slideBox">
+			<div class="hd">
+			  <ul>
+				<li><span></span></li>
+				<li><span></span></li>
+				<li><span></span></li>
+				<li><span></span></li>
+				<li><span></span></li>
+				<li><span></span></li>
+			  </ul>
+			</div>
+			<div class="bd">
+			  <ul>
+				<li>
+				  <a href="#" target="_self"
+					><img src="./img/banner1.jpg"
+				  /></a>
+				</li>
+				<li>
+				  <a href="#" target="_self"
+					><img src="./img/banner2.jpg"
+				  /></a>
+				</li>
+				<li>
+				  <a href="#" target="_self"
+					><img src="./img/banner3.jpg"
+				  /></a>
+				</li>
+				<li>
+					<a href="#" target="_self"
+					  ><img src="./img/banner4.jpg"
+					/></a>
+				  </li>
+				  <li>
+					<a href="#" target="_self"
+					  ><img src="./img/banner5.jpg"
+					/></a>
+				  </li>
+				  <li>
+					<a href="#" target="_self"
+					  ><img src="./img/banner6.jpg"
+					/></a>
+				  </li>
+			  </ul>
+			</div>
+	  
+			<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+		</div>
+   </div>
+    <script>
+      jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,trigger:"click"});
+    </script>
+  </body>
+</html>
